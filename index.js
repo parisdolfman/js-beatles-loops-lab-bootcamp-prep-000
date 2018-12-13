@@ -6,3 +6,12 @@
     }
     return array
  }
+
+
+ function johnLennonFacts(facts) {
+    var array = [];
+    while (facts.length > 0) {
+    array.push(`${facts}!!!`);
+    }
+    return array
+  }
