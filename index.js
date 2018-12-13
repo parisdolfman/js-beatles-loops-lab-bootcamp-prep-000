@@ -9,8 +9,9 @@
 
 
  function johnLennonFacts(facts) {
-   vary array = [];
-   while(facts.length > 0) {
-     
+   var array = [];
+   while (facts.length > 0) {
+   array.push(`${facts}!!!`)
    }
+   return array
  }
